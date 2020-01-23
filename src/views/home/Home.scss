@@ -1,0 +1,41 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .title {
+    font-size: 30px;
+    margin: 50px 0;
+    text-align: center;
+    #emoji {
+      font-size: 30px;
+    }
+  }
+  .search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    padding-top: 15px;
+    padding-bottom: 35px;
+    background-color: white;
+    width: 100%;
+    .search-bar {
+      min-width: 500px;
+      width: 1000px;
+    }
+  }
+  .todos {
+    .todo-list {
+      margin: 50px auto;
+    }
+  }
+  .button {
+    position: fixed;
+    bottom: 30px;
+    right: 40px;
+    .fa {
+      margin-right: 10px;
+    }
+  }
+}

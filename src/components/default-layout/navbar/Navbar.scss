@@ -1,0 +1,29 @@
+.navbar {
+  display: flex;
+  position: sticky;
+  top: 0;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  z-index: 1;
+  .logo {
+    margin-left: 20px;
+    .link {
+      h1 {
+        background-image: linear-gradient(to bottom right,rgba(234, 90, 159, 0.42) 30%, #66BEFE 100%);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+    }
+  }
+  .links {
+    margin-right: 20px;
+    .link {
+      color: #292929;
+      &:first-child {
+        margin-right: 20px;
+      }
+    }
+  }
+}
